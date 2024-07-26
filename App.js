@@ -1,3 +1,11 @@
+// Purpose:
+// This code creates a React frontend:
+
+// City Input: Provides an input field to enter the city name.
+// Handle Submission: Sends the city name to the Flask backend to fetch the weather data.
+// Display Weather Data: Displays the fetched weather information including the temperature, description, and weather icon.
+
+
 import React, { useState } from 'react';
 import axios from 'axios';
 
